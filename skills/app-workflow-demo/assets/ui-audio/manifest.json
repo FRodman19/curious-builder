@@ -1,0 +1,165 @@
+{
+  "generator": "local_audio.py",
+  "method": "Procedural oscillators and seeded noise; no API, downloaded samples or model",
+  "seed": 19,
+  "mix_profile": "no-voiceover",
+  "ambience_style": "warm",
+  "sfx_gain_db": 3,
+  "ambience_gain_db": 4,
+  "ambient_attack_s": 0.18,
+  "sample_rate": 48000,
+  "channels": 2,
+  "events": [],
+  "assets": [
+    {
+      "file": "mouse_down.wav",
+      "duration": 0.055,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -34.04
+    },
+    {
+      "file": "mouse_up.wav",
+      "duration": 0.045,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -34.69
+    },
+    {
+      "file": "click.wav",
+      "duration": 0.15,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -36.4
+    },
+    {
+      "file": "double_click.wav",
+      "duration": 0.31,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -37.36
+    },
+    {
+      "file": "key.wav",
+      "duration": 0.07,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -37.27
+    },
+    {
+      "file": "typing.wav",
+      "duration": 1.6,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -40.34
+    },
+    {
+      "file": "enter.wav",
+      "duration": 0.095,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -36.72
+    },
+    {
+      "file": "backspace.wav",
+      "duration": 0.07,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -36.42
+    },
+    {
+      "file": "toggle.wav",
+      "duration": 0.08,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -37.12
+    },
+    {
+      "file": "drag.wav",
+      "duration": 0.1,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -36.55
+    },
+    {
+      "file": "drop.wav",
+      "duration": 0.12,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -36.94
+    },
+    {
+      "file": "snap.wav",
+      "duration": 0.065,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -36.69
+    },
+    {
+      "file": "pop.wav",
+      "duration": 0.19,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -26.4
+    },
+    {
+      "file": "transition.wav",
+      "duration": 0.4,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -27.83
+    },
+    {
+      "file": "loading_start.wav",
+      "duration": 0.25,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -23.21
+    },
+    {
+      "file": "loading_loop.wav",
+      "duration": 2.0,
+      "peak_dbfs": -17.92,
+      "rms_dbfs": -29.34
+    },
+    {
+      "file": "complete.wav",
+      "duration": 0.65,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -26.57
+    },
+    {
+      "file": "attention.wav",
+      "duration": 0.38,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -23.51
+    },
+    {
+      "file": "error.wav",
+      "duration": 0.5,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -24.49
+    },
+    {
+      "file": "notification.wav",
+      "duration": 0.36,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -24.76
+    },
+    {
+      "file": "undo.wav",
+      "duration": 0.26,
+      "peak_dbfs": -12.92,
+      "rms_dbfs": -27.24
+    },
+    {
+      "file": "ambience.wav",
+      "duration": 24.0,
+      "peak_dbfs": -20.48,
+      "rms_dbfs": -31.04
+    },
+    {
+      "file": "ambience-focus.wav",
+      "duration": 24.0,
+      "peak_dbfs": -20.93,
+      "rms_dbfs": -33.01
+    },
+    {
+      "file": "soundtrack.wav",
+      "duration": 24.0,
+      "peak_dbfs": -20.48,
+      "rms_dbfs": -31.04
+    },
+    {
+      "file": "preview.wav",
+      "duration": 54.5,
+      "peak_dbfs": -13.19,
+      "rms_dbfs": -30.47
+    }
+  ]
+}

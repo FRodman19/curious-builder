@@ -1,0 +1,13 @@
+<!-- Presentation shell for actual Android app captures. Include frames.css.
+Set the device bounds to fit the entire safe canvas; do not animate half offscreen.
+Use data-system-chrome="included" when captured; data-camera-included="true" only
+when the source already includes a camera cutout. Replace the empty app viewport
+with source-correct content. Heading is a sibling, outside the hardware. -->
+<h2 class="page-heading">Project overview</h2>
+<div class="device android presentation-depth" data-system-chrome="omitted">
+  <div class="phone-screen">
+    <div class="android-status-bar" aria-hidden="true"><span>9:41</span><span class="android-status-icons"><svg viewBox="0 0 24 24"><path d="M3 17h3v4H3zm5-4h3v8H8zm5-5h3v13h-3zm5-5h3v18h-3z"/></svg><svg viewBox="0 0 24 24"><path d="M2 8.8a16 16 0 0 1 20 0l-2 2.5a12.7 12.7 0 0 0-16 0zm4 5a9.6 9.6 0 0 1 12 0L16 16a6.4 6.4 0 0 0-8 0zm4 4.8a3.2 3.2 0 0 1 4 0L12 21z"/></svg><svg viewBox="0 0 28 24"><rect x="2" y="5" width="21" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><rect x="5" y="8" width="15" height="8" rx="1"/><path d="M25 9h2v6h-2z"/></svg></span></div>
+    <div class="camera" aria-hidden="true"></div>
+    <div class="android-app-viewport"></div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+/* Presentation scaffolding only. Product specimens retain their native geometry. */
+.demo-comparison {
+  --compare-gap: 28px;
+  --compare-label-size: 48px;
+  --compare-ink: #202020;
+  --compare-surface: transparent;
+  display: grid;
+  gap: var(--compare-gap);
+  color: var(--compare-ink);
+  background: var(--compare-surface);
+}
+.demo-comparison[data-layout="side-by-side"] { grid-template-columns: 1fr 1fr; }
+.demo-comparison[data-layout="stacked"] { grid-template-columns: 1fr; }
+.demo-comparison__specimen { min-width: 0; margin: 0; }
+.demo-comparison__label {
+  margin: 0 0 0.4em;
+  font-size: var(--compare-label-size);
+  line-height: 1.15;
+  font-weight: 600;
+}
+.demo-comparison__viewport {
+  position: relative;
+  overflow: hidden;
+  /* Set explicit dimensions from the crop manifest; do not stretch a screenshot. */
+}
+.demo-comparison__viewport > img { display: block; width: 100%; height: auto; }
+/* Registered replacement: both layers use the same grid cell, with independent
+   source-correct dimensions. Set opacity/clip-path in the seekable timeline. */
+.demo-comparison[data-layout="registered"] { grid-template-columns: 1fr; }
+.demo-comparison[data-layout="registered"] > .demo-comparison__specimen { grid-area: 1 / 1; }

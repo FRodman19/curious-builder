@@ -1,0 +1,52 @@
+*{box-sizing:border-box}body{margin:0;color:var(--ink,#24201d);font-family:var(--font,system-ui,sans-serif)}
+.demo-stage{position:relative;overflow:hidden;background:radial-gradient(ellipse at 15% 0%,var(--wash,#e9e7e3),transparent 58%),var(--paper,#f4f1ed)}
+.action-pill{display:inline-flex;align-items:center;justify-content:center;max-width:86%;padding:18px 30px;border-radius:32px;background:var(--caption-surface,#fffdf9);color:var(--ink,#24201d);border:1px solid var(--caption-line,#ded7ce);box-shadow:0 7px 22px #3d30260a;font-weight:550;line-height:1.22;text-align:center;letter-spacing:-.5px;font-size:34px;isolation:isolate}
+.caption-slot{position:absolute;left:0;right:0;display:flex;justify-content:center;align-items:center;pointer-events:none}
+.device{position:absolute;background:#1e1e20;box-shadow:0 30px 55px #30272325,inset 0 0 0 2px #a49e97;overflow:visible;padding:10px}
+.device.iphone{border-radius:65px}.device.android{border-radius:48px;box-shadow:0 30px 55px #30272325,inset 0 0 0 2px #737170}
+.phone-screen{position:relative;width:100%;height:100%;background:#faf8f5;overflow:hidden;border-radius:55px}.android .phone-screen{border-radius:38px}
+.iphone .camera{position:absolute;top:18px;left:50%;transform:translateX(-50%);width:126px;height:34px;border-radius:30px;background:#101012;z-index:5}
+.android .phone-screen{container-type:inline-size;--android-status-height:5.8%;--android-camera-size:4.2%;--android-status-ink:#17191d;--android-status-surface:#faf8f5}
+.android .camera{position:absolute;top:calc(var(--android-status-height) / 2);left:50%;transform:translate(-50%,-50%);width:var(--android-camera-size);height:auto;aspect-ratio:1;border-radius:50%;background:#090b0e;box-shadow:0 0 0 1px #30343b,inset 0 0 0 2px #11151b;z-index:6}
+.android-status-bar{position:absolute;inset:0 0 auto;height:var(--android-status-height);padding:0 6.5%;display:flex;align-items:center;justify-content:space-between;background:var(--android-status-surface);color:var(--android-status-ink);font-family:system-ui,sans-serif;font-size:4.5cqw;font-weight:600;line-height:1;z-index:4}
+.android-status-icons{display:flex;gap:1.4cqw;align-items:center}
+.android-status-icons svg{display:block;width:5cqw;height:5cqw;fill:currentColor;flex:none}
+.android-app-viewport{position:absolute;inset:var(--android-status-height) 0 0;overflow:hidden}
+.android-app-viewport>img{display:block;width:100%;height:100%;object-fit:contain;object-position:top center}
+.android[data-system-chrome="included"] .android-status-bar{display:none}
+.android[data-system-chrome="included"] .android-app-viewport{top:0}
+.android[data-camera-included="true"] .camera{display:none}
+.page-heading{position:absolute;left:var(--stage-gutter,4%);right:var(--stage-gutter,4%);top:var(--heading-top,4%);margin:0;text-align:center;color:var(--ink,#24201d);font-family:var(--font,system-ui,sans-serif);font-size:var(--heading-size,56px);line-height:1.12;font-weight:600}
+.gesture{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);width:130px;height:5px;background:#272526;border-radius:8px;z-index:5}
+.hardware-button{position:absolute;right:-3px;top:205px;width:3px;height:78px;border-radius:0 3px 3px 0;background:#77716a}
+.mac-window{position:absolute;border:1px solid #d0c7bf;border-radius:20px;overflow:hidden;background:#f8f5f1;box-shadow:0 25px 65px #30272320}
+.mac-titlebar{height:44px;position:relative;display:flex;align-items:center;justify-content:center;background:#eee9e3;border-bottom:1px solid #d8d0c7;color:#746c64;font-size:17px;font-weight:500}
+.traffic-lights{position:absolute;left:18px;display:flex;gap:9px}.traffic-lights i{width:13px;height:13px;border-radius:50%;background:#ee6a5e;border:1px solid #00000012}.traffic-lights i:nth-child(2){background:#f4bd4f}.traffic-lights i:nth-child(3){background:#61c454}
+.mac-content{display:block;width:100%;height:auto}.sample-ui{padding:82px 25px 28px;color:#302a24;font-family:inherit}.sample-ui small{display:block;font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#7a7067}.sample-ui h2{margin:12px 0 22px;font-size:34px;letter-spacing:-1px;line-height:1.05}.sample-ui .media{height:210px;border-radius:16px;background:linear-gradient(145deg,#ddd4e9,#ebe5da);display:grid;place-items:center;color:#78668a;font-size:16px;border:1px solid #dbd1df}.sample-ui p{font-size:16px;line-height:1.5;color:#80746a}.sample-ui .sample-row{display:flex;gap:16px;align-items:center;padding:15px 12px;border:1px solid #e4ddd4;border-radius:14px;margin:10px 0;background:#fffdf9;font-size:18px}.sample-ui .sample-row.selected{border:1.5px solid #896aac;background:#f1ebf7}.sample-ui .thumb{width:45px;height:45px;border-radius:8px;background:#e8e1ed}.sample-ui .sample-row:nth-last-child(1) .thumb{background:#e4ddd1}.sample-ui .duration{margin-left:auto;font-size:14px;color:#82796e}.sample-ui .sample-button{margin-top:26px;background:#302924;color:#fff;border-radius:30px;padding:17px;text-align:center;font-size:18px}.study-note{font-size:17px;letter-spacing:.3px;color:#70685f}.status{position:absolute;left:28px;top:24px;right:27px;font:600 14px system-ui;display:flex;justify-content:space-between}.sample-ui .sample-label{position:absolute;left:0;right:0;bottom:45px;text-align:center;font-size:12px;letter-spacing:1px;color:#81776c}
+
+/* Target-brand presentation layer. Set hues from the app; transparent defaults
+   intentionally introduce no unrelated palette. Blur never touches product UI. */
+.demo-stage { --stage-gutter: 4%; isolation: isolate; }
+.demo-stage--aurora::before {
+  content: "";
+  position: absolute;
+  inset: -18%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 14% 20%, var(--aurora-a, transparent), transparent 56%),
+    radial-gradient(ellipse at 88% 58%, var(--aurora-b, transparent), transparent 58%),
+    radial-gradient(ellipse at 36% 94%, var(--aurora-c, transparent), transparent 54%);
+  filter: blur(var(--aurora-blur, 58px));
+  opacity: var(--aurora-opacity, .42);
+}
+/* Add to the outer shell, not the app's internal cards. Later rule deliberately
+   overrides baseline shell shadows while preserving platform geometry. */
+.device.presentation-depth,
+.mac-window.presentation-depth,
+.presentation-depth {
+  box-shadow:
+    0 8px 16px var(--depth-contact, #00000014),
+    0 30px 64px var(--depth-diffuse, #00000026),
+    inset 0 0 0 1px var(--depth-edge, #ffffff55);
+}

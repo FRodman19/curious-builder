@@ -1,0 +1,17 @@
+{
+  "warm": {
+    "decoded_peak_dbfs": -20.372844696044922,
+    "onset_seconds": 0.18
+  },
+  "focus": {
+    "decoded_peak_dbfs": -20.963132858276367,
+    "onset_seconds": 0.18
+  },
+  "effects_gain_db": 3,
+  "ambient_gain_db": 4,
+  "audition": "Generated and technically verified; subjective playback has not been heard by the agent",
+  "available_ambient_styles": [
+    "warm",
+    "focus"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Workflow Demo"
+  short_description: "Create faithful product demos for any app"
+  default_prompt: "Use $app-workflow-demo to study this app and create a faithful product demonstration. Use its design system and real UI where available. Clarify short or complete scope, guided zooms or a stable screen-recording view, and publishing format only where needed, then critique a contact sheet before showing it to me."

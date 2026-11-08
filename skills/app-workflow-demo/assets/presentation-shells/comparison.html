@@ -1,0 +1,15 @@
+<!-- Copy this fragment with comparison.css into a composition.
+     Replace each empty viewport with an actual crop/component from the target app.
+     Labels are presentation chrome. Set dimensions and common scale from evidence.
+     For registered mode, timeline-control the two specimen layers deterministically. -->
+<link rel="stylesheet" href="comparison.css">
+<section class="demo-comparison" data-layout="stacked" aria-label="Before and after component comparison">
+  <figure class="demo-comparison__specimen" data-version="before">
+    <figcaption class="demo-comparison__label">Before</figcaption>
+    <div class="demo-comparison__viewport" data-source="before-component"></div>
+  </figure>
+  <figure class="demo-comparison__specimen" data-version="after">
+    <figcaption class="demo-comparison__label">After</figcaption>
+    <div class="demo-comparison__viewport" data-source="after-component"></div>
+  </figure>
+</section>

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "mouse_down",
+    "title": "Mouse press",
+    "use": "At pointer button down",
+    "mp3": "mouse_down.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "mouse_down.wav"
+  },
+  {
+    "id": "mouse_up",
+    "title": "Mouse release",
+    "use": "At pointer button up",
+    "mp3": "mouse_up.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "mouse_up.wav"
+  },
+  {
+    "id": "click",
+    "title": "Mouse click",
+    "use": "A dry mechanical press and release, at activation",
+    "mp3": "click.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "click.wav"
+  },
+  {
+    "id": "double_click",
+    "title": "Double click",
+    "use": "Only when two real clicks occur",
+    "mp3": "double_click.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "double_click.wav"
+  },
+  {
+    "id": "key",
+    "title": "Keyboard key",
+    "use": "At a visible character insertion",
+    "mp3": "key.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "key.wav"
+  },
+  {
+    "id": "typing",
+    "title": "Typing",
+    "use": "A demonstration burst; use individual keys for exact text timing",
+    "mp3": "typing.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "typing.wav"
+  },
+  {
+    "id": "enter",
+    "title": "Enter key",
+    "use": "At submission by keyboard, never a mouse submit",
+    "mp3": "enter.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "enter.wav"
+  },
+  {
+    "id": "backspace",
+    "title": "Backspace",
+    "use": "At an actual text deletion",
+    "mp3": "backspace.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "backspace.wav"
+  },
+  {
+    "id": "toggle",
+    "title": "Switch",
+    "use": "At the checked or selected state change",
+    "mp3": "toggle.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "toggle.wav"
+  },
+  {
+    "id": "drag",
+    "title": "Drag pickup",
+    "use": "Once when grabbing an object",
+    "mp3": "drag.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "drag.wav"
+  },
+  {
+    "id": "drop",
+    "title": "Drop",
+    "use": "Once when the object is released in its destination",
+    "mp3": "drop.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "drop.wav"
+  },
+  {
+    "id": "snap",
+    "title": "Snap into place",
+    "use": "At a visible alignment or snap point",
+    "mp3": "snap.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "snap.wav"
+  },
+  {
+    "id": "pop",
+    "title": "Pop or reveal",
+    "use": "Optional emphasis on a new object appearing, not a mouse click",
+    "mp3": "pop.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "pop.wav"
+  },
+  {
+    "id": "transition",
+    "title": "Panel whoosh",
+    "use": "With a meaningful moving panel or scene transition",
+    "mp3": "transition.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "transition.wav"
+  },
+  {
+    "id": "loading_start",
+    "title": "Loading starts",
+    "use": "At the beginning of an actual waiting state",
+    "mp3": "loading_start.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "loading_start.wav"
+  },
+  {
+    "id": "loading_loop",
+    "title": "Loading texture",
+    "use": "Optional quiet loop while visibly loading; stop at resolution",
+    "mp3": "loading_loop.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "loading_loop.wav"
+  },
+  {
+    "id": "complete",
+    "title": "Success",
+    "use": "When the result is visible and complete",
+    "mp3": "complete.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "complete.wav"
+  },
+  {
+    "id": "attention",
+    "title": "Warning",
+    "use": "When a recoverable warning appears",
+    "mp3": "attention.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "attention.wav"
+  },
+  {
+    "id": "error",
+    "title": "Error",
+    "use": "When an action actually fails, not when it merely waits",
+    "mp3": "error.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "error.wav"
+  },
+  {
+    "id": "notification",
+    "title": "Notification",
+    "use": "At a new notification or incoming message",
+    "mp3": "notification.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "notification.wav"
+  },
+  {
+    "id": "undo",
+    "title": "Undo or restore",
+    "use": "At the visible reversal of the edit",
+    "mp3": "undo.mp3",
+    "provenance": "Locally synthesized approximation, not a hardware recording",
+    "generated_wav": "undo.wav"
+  }
+]
