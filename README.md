@@ -10,6 +10,7 @@ Every step is on YouTube: [@frank-builds](https://www.youtube.com/@frank-builds)
 |---|---|
 | [ai-video-editor](skills/ai-video-editor) | Takes a raw recording to a finished edit with AI: transcript, paper edit, cuts, motion graphics, render. Bring your own brand colours and fonts. |
 | [app-workflow-demo](skills/app-workflow-demo) | Turns your app's real code and UI into faithful product demos and before and after release showcases. Includes 21 synthesized UI sounds and two ambient beds. |
+| [app-publish](skills/app-publish) | A strict release gate for mobile apps: code review, pre-flight checks, versioning, store copy, Play Store and App Store upload, staged rollout, forced updates and code-push patches. Built for Flutter, with notes for native and React Native. |
 
 These are agent skills: folders with a `SKILL.md` that Claude Code, Codex and other agents read.
 
